@@ -35,8 +35,3 @@ header p {
     letter-spacing: 4px;
     font-variant-caps: all-petite-caps;
 }
-
-form {
-    max-width: 400px;
-    margin: 2em auto;
-}
