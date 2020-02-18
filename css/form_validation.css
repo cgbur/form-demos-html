@@ -21,6 +21,11 @@ span.helper {
     transition: all .2s;
     opacity: 0;
 }
+
 div:hover span.helper {
     opacity: 1;
+}
+
+.helper-visible {
+    opacity: 1 !important;
 }
