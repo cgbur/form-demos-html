@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Time Feedback</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css"/>
+  <link rel="stylesheet" href="../css/form_style.css"/>
+  <link rel="stylesheet" href="../css/form_validation.css"/>
+</head>
+<body>
+<main>
+
+  <p>Things to note.</p>
+  <ul>
+    <li>We learn the fastest when we have real time feedback</li>
+    <li>It is frustrating when we have to guess which fields
+      were invalid.
+    </li>
+    <li>Some websites will reset your form and say it was invalid,
+      don't do this. It is annoying.
+    </li>
+  </ul>
+
+  <form method="get" action="">
+    <h1>Login</h1>
+    <div>
+      <label>
+        Username <span class="required"><span class="helper">minimum of 3 characters</span></span>
+        <input type="text" name="username" minlength="3" placeholder="onyen123" required/>
+      </label>
+    </div>
+
+    <div>
+      <label>
+        Email
+        <input type="email" name="email" placeholder="onyen123@live.unc.edu"/>
+      </label>
+    </div>
+
+    <div>
+      <label>
+        Password <span class="required"><span class="helper">minimum of 6 characters</span></span>
+        <input type="password" name="password" minlength="6" placeholder="a-complex-password" required/>
+      </label>
+    </div>
+
+    <div>
+      <input type="submit"/>
+    </div>
+  </form>
+</main>
+</body>
+</html>

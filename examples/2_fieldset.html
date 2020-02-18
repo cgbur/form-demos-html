@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fieldsets</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+<main>
+  
+  <p>Things to note.</p>
+  <ul>
+    <li>Using the fieldset tag allows us to group parts of an
+    html form</li>
+
+  </ul>
+
+  <form method="get" action="">
+    <fieldset>
+      <div>
+        <label>
+          username <br/>
+          <input type="text" name="username"/>
+        </label>
+      </div>
+
+      <div>
+        <label>
+          email <br/>
+          <input type="email" name="email"/>
+        </label>
+      </div>
+
+      <div>
+        <label>
+          password <br/>
+          <input type="password" name="password"/>
+        </label>
+      </div>
+    </fieldset>
+    <p>But wait! There's more!</p>
+    <fieldset>
+      <div>
+        <label>
+          personal story <br/>
+          <textarea name="story">
+
+          </textarea>
+        </label>
+      </div>
+    </fieldset>
+
+    <div>
+      <input type="submit"/>
+    </div>
+  </form>
+</main>
+</body>
+</html>

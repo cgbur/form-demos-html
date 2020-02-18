@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Form</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+<main>
+
+  <p>Things to note.</p>
+  <ul>
+    <li>Since we used labels we have the ability to click
+    a label to select the element.</li>
+    <li>The 'type' attribute defines which element is actually
+    rendered. Has the added benefit of letting the browser
+    suggest things for us (save passwords, autofill user info etc.)</li>
+    <li>method: get vs post? action where to go?</li>
+  </ul>
+
+  <form method="get" action="">
+    <div>
+      <label>
+        username
+        <input type="text" name="username"/>
+      </label>
+    </div>
+
+    <div>
+      <label>
+        email
+        <input type="email" name="email"/>
+      </label>
+    </div>
+
+    <div>
+      <label>
+        password
+        <input type="password" name="password"/>
+      </label>
+    </div>
+
+    <div>
+      <input type="submit"/>
+    </div>
+  </form>
+</main>
+</body>
+</html>
