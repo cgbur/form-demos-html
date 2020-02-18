@@ -7,6 +7,6 @@ $(document).ready(function () {
 
   inputs.focusout(function () {
     $(this).parent().find('span.helper').removeClass('helper-visible');
-  })
+  });
 });
 
