@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Time Feedback</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css"/>
+  <link rel="stylesheet" href="../css/form_style.css"/>
+  <link rel="stylesheet" href="../css/form_validation.css"/>
+
+  <!--  Below is the javascript to make is so focus on an input shows the hint-->
+  <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+  <script src="../js/focus-show-hint.js"></script>
+</head>
+<body>
+<main>
+  <form method="get" action="">
+    <h1>Login</h1>
+    <div>
+      <label>
+        Username <span class="required"><span class="helper">minimum of 3 characters</span></span>
+        <input type="date" name="username" minlength="3" placeholder="onyen123" required/>
+      </label>
+    </div>
+
+    <div>
+      <input type="submit"/>
+    </div>
+  </form>
+</main>
+</body>
+</html>
