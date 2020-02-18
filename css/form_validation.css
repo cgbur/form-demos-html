@@ -26,6 +26,9 @@ div:hover span.helper {
     opacity: 1;
 }
 
+/*
+Applied via the javascript in js/focus-show-hint.js
+*/
 .helper-visible {
     opacity: 1 !important;
 }
